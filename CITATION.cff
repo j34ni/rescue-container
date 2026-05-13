@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this container, please cite it as below."
+type: software
+title: "RESCUE: Container with xarray, netcdf4, cartopy and related tools"
+version: "1.0"
+doi: "10.5281/zenodo.20155316"
+date-released: "2026-05-13"
+authors:
+  - family-names: Iaquinta
+    given-names: Jean
+repository-code: "https://github.com/j34ni/rescue-container"
+url: "https://github.com/j34ni/rescue-container"
+license: "MIT"        
+keywords:
+  - singularity
+  - docker
+  - apptainer
+  - xarray
+  - netcdf
+  - cartopy
+  - reproducible-research
