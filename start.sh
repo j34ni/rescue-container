@@ -13,5 +13,6 @@ echo "========================================"
 if [ $# -gt 0 ]; then
     exec "$@"
 else
-    exec bash --login
+    export PS1="\[\e[32m\](rescue)\[\e[0m\] \u@\h:\w\$ "
+    exec bash --norc --noprofile
 fi
